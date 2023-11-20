@@ -7,8 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LandingMainComponent } from './landing-main/landing-main.component';
 import { LibraryComponent } from './library/library.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +17,6 @@ import { ContactComponent } from './contact/contact.component';
     LandingMainComponent,
     LibraryComponent,
     HomeComponent,
-    AboutComponent,
     ContactComponent
   ],
   imports: [
