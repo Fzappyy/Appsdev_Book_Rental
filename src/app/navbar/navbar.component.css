@@ -1,4 +1,40 @@
-.img-logo {
-  width: 10%;
-  padding: 10px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Style the logo section */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.logo p {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.menu a {
+  margin-right: 20px; 
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
