@@ -1,18 +1,34 @@
-<!-- admin-login.component.html -->
-
-<div class="login-container">
-    <h2>Admin Login</h2>
-    <form>
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+<div class="outer-container">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="container me-5">
+      <div>
+        <form>
+            <h3 class="fs-1 d-flex justify-content-center p-3 bg-success text-white rounded-2">Admin Login</h3>
+          
+    
+            <div class="form-group pt-3">
+                <label for="email" class="fs-5">Email address:</label>
+                <input type="email" class="form-control p-3" id="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div class="form-group pt-3">
+                <label for="password" class="fs-5">Password:</label>
+                <input type="password" class="form-control p-3" id="password" placeholder="Enter your password" required>
+            </div>
+    
+            
+    
+            
+    
+            <a href="/borrower-dashboard" class="btn btn-primary px-5 py-2 me-3 mt-5">Login</a>
+            <a href="" class="btn btn-secondary px-5 py-2 mt-5">Go Back to Home</a>
+        </form>
       </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+    </div>
+    
+      <div class="container d-md-block d-none">
+        <img src="assets/a.png" id="image" class=" img-fluid imgDisplay d-md-block d-none">
       </div>
-      <button type="submit">Login</button>
-      <a href="" class="btn btn-secondary">Go Back to Home</a>
-    </form>
+    
   </div>
-  
+</div>
