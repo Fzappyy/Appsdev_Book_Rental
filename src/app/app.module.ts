@@ -8,6 +8,10 @@ import { LandingMainComponent } from './landing-main/landing-main.component';
 import { LibraryComponent } from './library/library.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { BorrowerLoginComponent } from './login/borrower-login/borrower-login.component';
+import { BorrowerDashboardComponent } from './borrower-dashboard/borrower-dashboard.component';
+import { AdminLoginComponent } from './login/admin-login/admin-login.component';
+import { AdminAfterloginComponent } from './admin-afterlogin/admin-afterlogin.component';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import { ContactComponent } from './contact/contact.component';
     LandingMainComponent,
     LibraryComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    BorrowerLoginComponent,
+    BorrowerDashboardComponent,
+    AdminLoginComponent,
+    AdminAfterloginComponent
   ],
   imports: [
     BrowserModule,
