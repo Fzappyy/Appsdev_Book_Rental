@@ -19,8 +19,7 @@ const routes: Routes = [
   { path: 'borrower-login', component: BorrowerLoginComponent},
   { path: 'borrower-dashboard', component: BorrowerDashboardComponent},
   { path: 'admin-login', component: AdminLoginComponent},
-  { path: 'admin-afterlogin', component: AdminAfterloginComponent},
-  { path: '**', redirectTo: '/home' }
+  { path: 'admin-afterlogin', component: AdminAfterloginComponent}
 
 ];
 
