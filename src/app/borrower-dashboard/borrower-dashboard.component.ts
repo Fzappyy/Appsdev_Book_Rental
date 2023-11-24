@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./borrower-dashboard.component.css']
 })
 export class BorrowerDashboardComponent {
-
+  userName: string = 'John Doe'; 
 }
