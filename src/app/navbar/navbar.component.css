@@ -28,13 +28,13 @@ body {
   margin: 0;
   font-size: 2em;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .menu a {
   margin-right: 20px; 
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: normal;
 }
 
