@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Style the logo section */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  .logo p {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: burlywood;
+  }
+  
+  .menu a {
+    margin-right: 20px; 
+    text-decoration: none;
+    color: burlywood;
+    font-weight: normal;
+  }
+  
+  .home1:hover {
+    color: rgb(66, 211, 66);
+  }
+
+  img{
+    width: 400px;
+    height: auto;
+  }
