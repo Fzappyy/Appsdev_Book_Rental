@@ -1,1 +1,41 @@
-<p>contact works!</p>
+<div class="navbar">
+    <div class="logo">
+      <img src="../assets/img/book.png" routerLink=""/>
+      <p routerLink="">Pawlse Book Rental</p>
+    </div>
+    <div class="menu me-5">
+      <a class="fs-4 home1" routerLink="/home">Home</a>
+      <a class="fs-4 library1" routerLink="/library">Library</a>
+      <a class="fs-4 contact1" routerLink="/contact">Contact</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <img src="assets/img/contact.png" alt="Contact Image" class="img-fluid mb-3">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Contact Us</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
