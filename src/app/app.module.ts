@@ -13,7 +13,6 @@ import { BorrowerDashboardComponent } from './borrower-dashboard/borrower-dashbo
 import { AdminLoginComponent } from './login/admin-login/admin-login.component';
 import { AdminAfterloginComponent } from './admin-afterlogin/admin-afterlogin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     AdminAfterloginComponent
   ],
   imports: [
-    CarouselModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
